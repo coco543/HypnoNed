@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE9BF671BFFE8210051211F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF661BFFE8210051211F /* main.m */; };
+		EDE9BF6A1BFFE8210051211F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF691BFFE8210051211F /* AppDelegate.m */; };
+		EDE9BF6C1BFFE8210051211F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BF6B1BFFE8210051211F /* Assets.xcassets */; };
+		EDE9BF6F1BFFE8210051211F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */; };
+		EDE9BF7A1BFFE8210051211F /* HypnoNedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF791BFFE8210051211F /* HypnoNedTests.m */; };
+		EDE9BF851BFFE8210051211F /* HypnoNedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF841BFFE8210051211F /* HypnoNedUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE9BF761BFFE8210051211F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE9BF5A1BFFE8210051211F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE9BF611BFFE8210051211F;
+			remoteInfo = HypnoNed;
+		};
+		EDE9BF811BFFE8210051211F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE9BF5A1BFFE8210051211F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE9BF611BFFE8210051211F;
+			remoteInfo = HypnoNed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE9BF621BFFE8210051211F /* HypnoNed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE9BF661BFFE8210051211F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE9BF681BFFE8210051211F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE9BF691BFFE8210051211F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE9BF6B1BFFE8210051211F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE9BF6E1BFFE8210051211F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE9BF701BFFE8210051211F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE9BF751BFFE8210051211F /* HypnoNedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE9BF791BFFE8210051211F /* HypnoNedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNedTests.m; sourceTree = "<group>"; };
+		EDE9BF7B1BFFE8210051211F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE9BF801BFFE8210051211F /* HypnoNedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE9BF841BFFE8210051211F /* HypnoNedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNedUITests.m; sourceTree = "<group>"; };
+		EDE9BF861BFFE8210051211F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE9BF5F1BFFE8210051211F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF721BFFE8210051211F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF7D1BFFE8210051211F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE9BF591BFFE8210051211F = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF641BFFE8210051211F /* HypnoNed */,
+				EDE9BF781BFFE8210051211F /* HypnoNedTests */,
+				EDE9BF831BFFE8210051211F /* HypnoNedUITests */,
+				EDE9BF631BFFE8210051211F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE9BF631BFFE8210051211F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF621BFFE8210051211F /* HypnoNed.app */,
+				EDE9BF751BFFE8210051211F /* HypnoNedTests.xctest */,
+				EDE9BF801BFFE8210051211F /* HypnoNedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE9BF641BFFE8210051211F /* HypnoNed */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF681BFFE8210051211F /* AppDelegate.h */,
+				EDE9BF691BFFE8210051211F /* AppDelegate.m */,
+				EDE9BF6B1BFFE8210051211F /* Assets.xcassets */,
+				EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */,
+				EDE9BF701BFFE8210051211F /* Info.plist */,
+				EDE9BF651BFFE8210051211F /* Supporting Files */,
+			);
+			path = HypnoNed;
+			sourceTree = "<group>";
+		};
+		EDE9BF651BFFE8210051211F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF661BFFE8210051211F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDE9BF781BFFE8210051211F /* HypnoNedTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF791BFFE8210051211F /* HypnoNedTests.m */,
+				EDE9BF7B1BFFE8210051211F /* Info.plist */,
+			);
+			path = HypnoNedTests;
+			sourceTree = "<group>";
+		};
+		EDE9BF831BFFE8210051211F /* HypnoNedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BF841BFFE8210051211F /* HypnoNedUITests.m */,
+				EDE9BF861BFFE8210051211F /* Info.plist */,
+			);
+			path = HypnoNedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE9BF611BFFE8210051211F /* HypnoNed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE9BF891BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNed" */;
+			buildPhases = (
+				EDE9BF5E1BFFE8210051211F /* Sources */,
+				EDE9BF5F1BFFE8210051211F /* Frameworks */,
+				EDE9BF601BFFE8210051211F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnoNed;
+			productName = HypnoNed;
+			productReference = EDE9BF621BFFE8210051211F /* HypnoNed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE9BF741BFFE8210051211F /* HypnoNedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE9BF8C1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedTests" */;
+			buildPhases = (
+				EDE9BF711BFFE8210051211F /* Sources */,
+				EDE9BF721BFFE8210051211F /* Frameworks */,
+				EDE9BF731BFFE8210051211F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE9BF771BFFE8210051211F /* PBXTargetDependency */,
+			);
+			name = HypnoNedTests;
+			productName = HypnoNedTests;
+			productReference = EDE9BF751BFFE8210051211F /* HypnoNedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE9BF7F1BFFE8210051211F /* HypnoNedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE9BF8F1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedUITests" */;
+			buildPhases = (
+				EDE9BF7C1BFFE8210051211F /* Sources */,
+				EDE9BF7D1BFFE8210051211F /* Frameworks */,
+				EDE9BF7E1BFFE8210051211F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE9BF821BFFE8210051211F /* PBXTargetDependency */,
+			);
+			name = HypnoNedUITests;
+			productName = HypnoNedUITests;
+			productReference = EDE9BF801BFFE8210051211F /* HypnoNedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE9BF5A1BFFE8210051211F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "郑克明";
+				TargetAttributes = {
+					EDE9BF611BFFE8210051211F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XNC7CRYM5X;
+					};
+					EDE9BF741BFFE8210051211F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XNC7CRYM5X;
+						TestTargetID = EDE9BF611BFFE8210051211F;
+					};
+					EDE9BF7F1BFFE8210051211F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = XNC7CRYM5X;
+						TestTargetID = EDE9BF611BFFE8210051211F;
+					};
+				};
+			};
+			buildConfigurationList = EDE9BF5D1BFFE8210051211F /* Build configuration list for PBXProject "HypnoNed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE9BF591BFFE8210051211F;
+			productRefGroup = EDE9BF631BFFE8210051211F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE9BF611BFFE8210051211F /* HypnoNed */,
+				EDE9BF741BFFE8210051211F /* HypnoNedTests */,
+				EDE9BF7F1BFFE8210051211F /* HypnoNedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE9BF601BFFE8210051211F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE9BF6C1BFFE8210051211F /* Assets.xcassets in Resources */,
+				EDE9BF6F1BFFE8210051211F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF731BFFE8210051211F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF7E1BFFE8210051211F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE9BF5E1BFFE8210051211F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE9BF6A1BFFE8210051211F /* AppDelegate.m in Sources */,
+				EDE9BF671BFFE8210051211F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF711BFFE8210051211F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE9BF7A1BFFE8210051211F /* HypnoNedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE9BF7C1BFFE8210051211F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE9BF851BFFE8210051211F /* HypnoNedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE9BF771BFFE8210051211F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE9BF611BFFE8210051211F /* HypnoNed */;
+			targetProxy = EDE9BF761BFFE8210051211F /* PBXContainerItemProxy */;
+		};
+		EDE9BF821BFFE8210051211F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE9BF611BFFE8210051211F /* HypnoNed */;
+			targetProxy = EDE9BF811BFFE8210051211F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE9BF6E1BFFE8210051211F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE9BF871BFFE8210051211F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDE9BF881BFFE8210051211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE9BF8A1BFFE8210051211F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypnoNed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDE9BF8B1BFFE8210051211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HypnoNed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDE9BF8D1BFFE8210051211F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HypnoNedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoNed.app/HypnoNed";
+			};
+			name = Debug;
+		};
+		EDE9BF8E1BFFE8210051211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HypnoNedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypnoNed.app/HypnoNed";
+			};
+			name = Release;
+		};
+		EDE9BF901BFFE8210051211F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HypnoNedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HypnoNed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDE9BF911BFFE8210051211F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HypnoNedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HypnoNed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE9BF5D1BFFE8210051211F /* Build configuration list for PBXProject "HypnoNed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE9BF871BFFE8210051211F /* Debug */,
+				EDE9BF881BFFE8210051211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE9BF891BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE9BF8A1BFFE8210051211F /* Debug */,
+				EDE9BF8B1BFFE8210051211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE9BF8C1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE9BF8D1BFFE8210051211F /* Debug */,
+				EDE9BF8E1BFFE8210051211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE9BF8F1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE9BF901BFFE8210051211F /* Debug */,
+				EDE9BF911BFFE8210051211F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE9BF5A1BFFE8210051211F /* Project object */;
+}
