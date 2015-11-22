@@ -21,6 +21,8 @@
 		EDE9BFAA1C0007B20051211F /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA61C0007B20051211F /* Hypno@2x.png */; };
 		EDE9BFAB1C0007B20051211F /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA71C0007B20051211F /* Time.png */; };
 		EDE9BFAC1C0007B20051211F /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA81C0007B20051211F /* Time@2x.png */; };
+		EDF2EF461C028BA800BE3C14 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EF441C028BA800BE3C14 /* QuizViewController.m */; };
+		EDF2EF471C028BA800BE3C14 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF2EF451C028BA800BE3C14 /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		EDE9BFA61C0007B20051211F /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
 		EDE9BFA71C0007B20051211F /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
 		EDE9BFA81C0007B20051211F /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
+		EDF2EF431C028BA800BE3C14 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		EDF2EF441C028BA800BE3C14 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		EDF2EF451C028BA800BE3C14 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +129,9 @@
 				EDE9BF981BFFEEE10051211F /* ReminderViewController.h */,
 				EDE9BF991BFFEEE10051211F /* ReminderViewController.m */,
 				EDE9BF9B1BFFF11B0051211F /* ReminderViewController.xib */,
+				EDF2EF431C028BA800BE3C14 /* QuizViewController.h */,
+				EDF2EF441C028BA800BE3C14 /* QuizViewController.m */,
+				EDF2EF451C028BA800BE3C14 /* QuizViewController.xib */,
 				EDE9BF6B1BFFE8210051211F /* Assets.xcassets */,
 				EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */,
 				EDE9BF701BFFE8210051211F /* Info.plist */,
@@ -283,6 +291,7 @@
 				EDE9BFA91C0007B20051211F /* Hypno.png in Resources */,
 				EDE9BFAA1C0007B20051211F /* Hypno@2x.png in Resources */,
 				EDE9BF6F1BFFE8210051211F /* LaunchScreen.storyboard in Resources */,
+				EDF2EF471C028BA800BE3C14 /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +321,7 @@
 				EDE9BF671BFFE8210051211F /* main.m in Sources */,
 				EDE9BF971BFFE8B10051211F /* HypnosisViewController.m in Sources */,
 				EDE9BF9A1BFFEEE10051211F /* ReminderViewController.m in Sources */,
+				EDF2EF461C028BA800BE3C14 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

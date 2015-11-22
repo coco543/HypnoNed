@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "ReminderViewController.h"
+#import "HypnosisViewController.h"
+#import "QuizViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

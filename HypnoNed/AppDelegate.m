@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "HypnosisViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -23,8 +22,9 @@
     //下面代码也可正常执行,原因就是init也会调用 initWithNibName这个方法,虽然传入两个参数是nil,但是系统仍然会在当前程序包中查找和控制器同名的xib文件
     ReminderViewController *rvc = [[ReminderViewController alloc] init];
     
+    QuizViewController *qvc = [[QuizViewController alloc] init];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = @[hvc,rvc];
+    tabBarController.viewControllers = @[hvc,rvc,qvc];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];

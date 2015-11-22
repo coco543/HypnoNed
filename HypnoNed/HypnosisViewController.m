@@ -25,5 +25,10 @@
     [super loadView];
     HypnosisterView *backgrounddView = [[HypnosisterView alloc] init];
     self.view = backgrounddView;
+    NSLog(@"Call ladView");
+}
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    NSLog(@"Call viewDidLoad on HypnosisViewController");
 }
 @end

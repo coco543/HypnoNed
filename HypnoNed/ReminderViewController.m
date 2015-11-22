@@ -44,4 +44,9 @@
     [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
     [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
 @end
