@@ -13,6 +13,14 @@
 		EDE9BF6F1BFFE8210051211F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */; };
 		EDE9BF7A1BFFE8210051211F /* HypnoNedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF791BFFE8210051211F /* HypnoNedTests.m */; };
 		EDE9BF851BFFE8210051211F /* HypnoNedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF841BFFE8210051211F /* HypnoNedUITests.m */; };
+		EDE9BF941BFFE85D0051211F /* HypnosisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF931BFFE85D0051211F /* HypnosisterView.m */; };
+		EDE9BF971BFFE8B10051211F /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF961BFFE8B10051211F /* HypnosisViewController.m */; };
+		EDE9BF9A1BFFEEE10051211F /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE9BF991BFFEEE10051211F /* ReminderViewController.m */; };
+		EDE9BF9C1BFFF11B0051211F /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BF9B1BFFF11B0051211F /* ReminderViewController.xib */; };
+		EDE9BFA91C0007B20051211F /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA51C0007B20051211F /* Hypno.png */; };
+		EDE9BFAA1C0007B20051211F /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA61C0007B20051211F /* Hypno@2x.png */; };
+		EDE9BFAB1C0007B20051211F /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA71C0007B20051211F /* Time.png */; };
+		EDE9BFAC1C0007B20051211F /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9BFA81C0007B20051211F /* Time@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,17 @@
 		EDE9BF801BFFE8210051211F /* HypnoNedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE9BF841BFFE8210051211F /* HypnoNedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNedUITests.m; sourceTree = "<group>"; };
 		EDE9BF861BFFE8210051211F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE9BF921BFFE85D0051211F /* HypnosisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisterView.h; sourceTree = "<group>"; };
+		EDE9BF931BFFE85D0051211F /* HypnosisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisterView.m; sourceTree = "<group>"; };
+		EDE9BF951BFFE8B10051211F /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		EDE9BF961BFFE8B10051211F /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		EDE9BF981BFFEEE10051211F /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		EDE9BF991BFFEEE10051211F /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		EDE9BF9B1BFFF11B0051211F /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		EDE9BFA51C0007B20051211F /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		EDE9BFA61C0007B20051211F /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		EDE9BFA71C0007B20051211F /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		EDE9BFA81C0007B20051211F /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +117,17 @@
 			children = (
 				EDE9BF681BFFE8210051211F /* AppDelegate.h */,
 				EDE9BF691BFFE8210051211F /* AppDelegate.m */,
+				EDE9BF921BFFE85D0051211F /* HypnosisterView.h */,
+				EDE9BF931BFFE85D0051211F /* HypnosisterView.m */,
+				EDE9BF951BFFE8B10051211F /* HypnosisViewController.h */,
+				EDE9BF961BFFE8B10051211F /* HypnosisViewController.m */,
+				EDE9BF981BFFEEE10051211F /* ReminderViewController.h */,
+				EDE9BF991BFFEEE10051211F /* ReminderViewController.m */,
+				EDE9BF9B1BFFF11B0051211F /* ReminderViewController.xib */,
 				EDE9BF6B1BFFE8210051211F /* Assets.xcassets */,
 				EDE9BF6D1BFFE8210051211F /* LaunchScreen.storyboard */,
 				EDE9BF701BFFE8210051211F /* Info.plist */,
+				EDE9BFAD1C0007C00051211F /* Img */,
 				EDE9BF651BFFE8210051211F /* Supporting Files */,
 			);
 			path = HypnoNed;
@@ -130,6 +157,17 @@
 				EDE9BF861BFFE8210051211F /* Info.plist */,
 			);
 			path = HypnoNedUITests;
+			sourceTree = "<group>";
+		};
+		EDE9BFAD1C0007C00051211F /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9BFA51C0007B20051211F /* Hypno.png */,
+				EDE9BFA61C0007B20051211F /* Hypno@2x.png */,
+				EDE9BFA71C0007B20051211F /* Time.png */,
+				EDE9BFA81C0007B20051211F /* Time@2x.png */,
+			);
+			name = Img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +276,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE9BFAC1C0007B20051211F /* Time@2x.png in Resources */,
+				EDE9BFAB1C0007B20051211F /* Time.png in Resources */,
 				EDE9BF6C1BFFE8210051211F /* Assets.xcassets in Resources */,
+				EDE9BF9C1BFFF11B0051211F /* ReminderViewController.xib in Resources */,
+				EDE9BFA91C0007B20051211F /* Hypno.png in Resources */,
+				EDE9BFAA1C0007B20051211F /* Hypno@2x.png in Resources */,
 				EDE9BF6F1BFFE8210051211F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE9BF6A1BFFE8210051211F /* AppDelegate.m in Sources */,
+				EDE9BF941BFFE85D0051211F /* HypnosisterView.m in Sources */,
 				EDE9BF671BFFE8210051211F /* main.m in Sources */,
+				EDE9BF971BFFE8B10051211F /* HypnosisViewController.m in Sources */,
+				EDE9BF9A1BFFEEE10051211F /* ReminderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HypnoNed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HypnoNed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cocos.HypnoNed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +529,7 @@
 				EDE9BF8B1BFFE8210051211F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE9BF8C1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +538,7 @@
 				EDE9BF8E1BFFE8210051211F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE9BF8F1BFFE8210051211F /* Build configuration list for PBXNativeTarget "HypnoNedUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +547,7 @@
 				EDE9BF911BFFE8210051211F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
