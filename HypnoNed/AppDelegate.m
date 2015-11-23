@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    NSBundle *appBundel = [NSBundle mainBundle];
+    //NSBundle *appBundel = [NSBundle mainBundle];
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     //ReminderViewController *rvc = [[ReminderViewController alloc] initWithNibName:@"ReminderViewController" bundle:appBundel];
     //下面代码也可正常执行,原因就是init也会调用 initWithNibName这个方法,虽然传入两个参数是nil,但是系统仍然会在当前程序包中查找和控制器同名的xib文件

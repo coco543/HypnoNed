@@ -21,6 +21,12 @@
         self.circleColor = [UIColor lightGrayColor];
         self.multipleTouchEnabled = YES;
     }
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"红",@"绿",@"蓝"]];
+    segmentedControl.frame = CGRectMake(bounds.size.width/4.0, 50, bounds.size.width/2.0, 50);
+    //[segmentedControl:self:@selector(segmentAction:)forControlEvents:UIControlEventValueChanged];
+    [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+    [self addSubview:segmentedControl];
     return self;
 }
 
@@ -96,6 +102,26 @@
     
     CGGradientRelease(gradient);
     CGColorSpaceRelease(colorspace);
+}
+-(void)segmentAction:(UISegmentedControl *)seg{
+    NSInteger index = seg.selectedSegmentIndex;
+    UIColor *c;
+    switch (index) {
+        case 0:
+            c = [UIColor redColor];
+            self.circleColor = c;
+            break;
+        case 1:
+            c = [UIColor greenColor];
+            self.circleColor = c;
+            break;
+        case 2:
+            c = [UIColor blueColor];
+            self.circleColor = c;
+            break;
+        default:
+            break;
+    }
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
