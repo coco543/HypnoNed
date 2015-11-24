@@ -7,9 +7,7 @@
 //
 
 #import "AppDelegate.h"
-@interface AppDelegate ()
-
-@end
+#import "HypnosisterView.h"
 
 @implementation AppDelegate
 
